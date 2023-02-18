@@ -2,7 +2,7 @@
 # Author: Kealan McGuinness
 # Week02 task 02 banks
 # int to convert string into an integer
-# use formattedfloat to change numbers into euro
+# use formattedfloat to change numbers into euro 
 
 
 x = input("Enter first amount (in cent): ")

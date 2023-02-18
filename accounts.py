@@ -9,7 +9,8 @@
 
 import re
 
-ccstring = "123456789"
+ccstring = input('Please enter a 10 digit account number: ')
+
 digitstokeep = 4
 maskchar = "*"
 
