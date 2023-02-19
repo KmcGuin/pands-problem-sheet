@@ -4,8 +4,9 @@
 # 
 # Line 12 - use // float division as / returned decimals
 # .append to return the results in a list form
-# Line 21 - sep used to print answer with comma in between. This could be changed to eg. '!' if you wanted exclamation mark between them.
 # Line 23 - asterisk is used if you don't know how many arguments will be passed through the function. 
+# corrected to remove commas in the answer
+
 
 number = int(input('Enter a positive integer: '))
 
@@ -20,7 +21,7 @@ while number > 1:
         number = (number*3) + 1
         answer.append(number)
     
-print(*answer, sep = ", ")
+print(*answer)
 
 
 
