@@ -24,3 +24,6 @@
 # https://www.w3schools.com/python/python_tuples_unpack.asp#:~:text=Using%20Asterisk%20*&text=If%20the%20asterisk%20is%20added,the%20number%20of%20variables%20left.
 # https://www.w3schools.com/python/gloss_python_function_arbitrary_arguments.asp
 
+
+# weekday.py Week 05
+# I didn't use external sources for this - I tried to rework the lab from Week 05 to apply to this, as described in the file.
