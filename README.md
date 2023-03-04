@@ -27,3 +27,11 @@
 
 # weekday.py Week 05
 # I didn't use external sources for this - I tried to rework the lab from Week 05 to apply to this, as described in the file.
+
+# squareroot.py Week 06
+# References: 
+# https://www.angela1c.com/projects/problem_set_links/problem7/
+# https://pythonhow.com/how/limit-floats-to-two-decimal-points/#:~:text=To%20limit%20a%20float%20to,resulting%20in%20the%20value%203.14.
+
+
+
