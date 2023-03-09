@@ -9,13 +9,12 @@ sq_root = round(num ** 0.5, 1)
 print(f'The square root of {num} is approx. {sq_root}')
 
 
-## def isqrt(n):
-#    x = n
- #   y = (x + 1) // 2
-  #  while y < x:
-   #     x = y
-    #    y = (x + n // x) // 2
-    # return x
+def newton_method(number, number_iters = 500):
+    a = float(number) 
+    for i in range(number_iters):
+        number = 0.5 * (number + a / number)
+    return number
 
-# answer = input("Please enter a positive number: ")
-# print(f"The square root of {answer} is approx."))
+num = input('Please enter a positive number: ')
+print(f'The square root of {num} is approx {newton_method(num)}')
+

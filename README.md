@@ -33,5 +33,7 @@
 # https://www.angela1c.com/projects/problem_set_links/problem7/
 # https://pythonhow.com/how/limit-floats-to-two-decimal-points/#:~:text=To%20limit%20a%20float%20to,resulting%20in%20the%20value%203.14.
 
-
+# es.py
+# I created a file called ulysses.txt, which includes an excerpt from James Joyce's Ulysses. I opened the file as a read document in python, following instructions from the lecture. I defined a function that counted the number of a particular letter, this can be changed depending on your letter of choice. I defined the 'lettercount' - ans = lettercount to allow me to add text and use the function method to return the answer to the number of times the letter 'e' appears in the execpt. 
+#reference: https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
 
