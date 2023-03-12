@@ -5,11 +5,17 @@
 #The program should take the filename from an argument on the command line.
 
 
+FILENAME = 'ulysses.txt'
+
+import sys
+n = len(sys.argv)
+
+print(sys.argv[0], FILENAME)
+
 
 FILENAME = 'ulysses.txt'
 with open(FILENAME, 'r') as f:
     data = f.read()
-
 
 def lettercount (FILENAME, letter):
     with open(FILENAME, 'r') as f:
@@ -17,7 +23,4 @@ def lettercount (FILENAME, letter):
     return text.count(letter)
 
 ans = lettercount('ulysses.txt', 'e')
-print(f'The letter e appears this many times: ',ans)
-
-
-
+print('The letter e appears this many times:',ans)
