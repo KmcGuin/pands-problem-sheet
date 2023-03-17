@@ -42,3 +42,19 @@
 # references: https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
 # https://www.geeksforgeeks.org/command-line-arguments-in-python/
 
+
+# Week 08 - weekly task Plotting
+# I found this useful to talk through the task simply: https://www.sharpsightlabs.com/blog/numpy-random-normal/
+# I also watched this video: https://www.youtube.com/watch?v=ufO_BScIHDQ
+# Other references I looked at: 
+# https://rowannicholls.github.io/python/graphs/ax_based/histograms.html
+# https://www.geeksforgeeks.org/how-to-plot-a-dashed-line-in-matplotlib/
+# https://realpython.com/python-histograms/
+# https://www.geeksforgeeks.org/how-to-plot-normal-distribution-over-histogram-in-python/
+# To begin with, I imported numpy and matplotlib to work with plotting graphs.I had tried the scipy library as well after doing some reading but I don't think this was needed in the end so I removed it. 
+# I defined the data set - normal_data - indicating a loc(mean) of 5, scale(stdev) of 2 and size of 1000. I can across those definitions (loc and scale) in my reading on the topic. I tried running the program without loc and scale, using just numbers i.e 5,2,1000 - and it also worked.
+# I defined the xpoints and ypoints as demonstrated in the lecture on the topic. I noticed when I ran the array with range of 0-10, the plotted line only reached 9 on the graph. I heard in the youtube video referenced above that it often discounts the last point on the range so I changed the array to 0-11 to make sure the plotted line reached 10.
+# I plotted the line, giving it a blue colour and dashed looked to make it stand out more, alongside the relevant label and legend.
+# I labelled the x and y axes of the histogram and gave it a title, as was demonstrated in the lecture. 
+# I gave the histogram some characteristics, such as a white colour and a black edge so that it worked nicely alongside the blue plotted line. I came across the coloredge function in my reading and thought it was a good way to define the lines. And I like the white background when running a colour through it. It looks cleaner visually than plotting a blue line through another colour for example.
+# I saved off the graph as a .png as well, just for the fun.
