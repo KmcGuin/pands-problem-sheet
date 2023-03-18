@@ -5,7 +5,7 @@
 # Line 12 - use // float division as / returned decimals
 # .append to return the results in a list form
 # Line 23 - asterisk is used if you don't know how many arguments will be passed through the function. 
-# corrected to remove commas in the answer
+# asterisk to remove commas in the answer
 
 
 number = int(input('Enter a positive integer: '))
